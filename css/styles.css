@@ -804,7 +804,11 @@ img {
 
 }
 
-.project-item:hover .project-bottom-text {
+.project-item-link:hover .project-bottom-text {
+    transform: translateY(0);
+}
+
+.project-item-link:focus .project-bottom-text {
     transform: translateY(0);
 }
 
